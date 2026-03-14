@@ -1,0 +1,23 @@
+"Design a dual_clock_FIFO.
+
+Requirements:
+- Independent write and read clocks
+- Data width: 8 bits
+- FIFO depth: 8
+- Use Gray-coded pointers
+- Prevent metastability using two-stage synchronizers
+
+Inputs:
+wr_clk
+rd_clk
+rst
+wr_en
+rd_en
+data_in
+
+Outputs:
+data_out
+full
+empty
+
+Ensure safe clock-domain crossing."
