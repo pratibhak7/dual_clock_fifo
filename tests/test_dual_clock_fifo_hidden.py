@@ -80,7 +80,7 @@ def test_dual_clock_fifo_hidden_runner():
     proj_path = Path(__file__).resolve().parent.parent
 
     sources = [
-        proj_path / "golden/dual_clock_fifo.sv",
+        proj_path / "sources/dual_clock_fifo.sv",
     ]
 
     runner = get_runner(sim)
