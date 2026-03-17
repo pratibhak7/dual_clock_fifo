@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1773720835" />
+    <testcase name="dual_clock_fifo_randomized_test" classname="test_dual_clock_fifo_hidden" file="D:\dual_clock_fifo\tests\test_dual_clock_fifo_hidden.py" lineno="15" time="0.16027307510375977" sim_time_ns="8437.5" ratio_time="52644.525566990065" />
+  </testsuite>
+</testsuites>
